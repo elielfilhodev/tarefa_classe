@@ -1,3 +1,8 @@
+/*
+    @Autor Eliel Filho
+    Criação da classe Notebook
+*/
+
 public class Notebook {
     public static void main(String[] args) {
         Objeto meuNotebook = new Objeto();
