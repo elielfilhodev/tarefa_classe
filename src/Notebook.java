@@ -8,7 +8,7 @@ public class Notebook {
     private String modelo;
     private int gigas;
 
-    // Getters: apenas leem, não têm lógica
+    // Getters:
     public String getModelo() {
         return modelo;
     }
@@ -17,7 +17,7 @@ public class Notebook {
         return gigas;
     }
 
-    // Setters: são o "porteiro" do objeto
+    // Setters:
     public void setModelo(String modelo) {
         if (modelo == null || modelo.isBlank()) {
             throw new IllegalArgumentException("Modelo não pode ser vazio.");
